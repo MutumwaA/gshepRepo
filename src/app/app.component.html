@@ -1,51 +1,47 @@
-
-<div class="nav has-shadow">
-    <div class="container">
-      <div class="nav-left">
-        <a routerLink="/" class="nav-item">MyCompany</a>
+<nav class="navbar is-transparent">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="">
+        <!-- <img src="" alt="cbis" width="112" height="28"> -->
+      </a>
+      <div class="navbar-burger" data-target="navbarExampleTransparent">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  
+    <div id="navbarExampleTransparent" class="navbar-menu">
+      <div class="navbar-start">
+            <a routerLink="/" class="nav-item r-item">Home</a>
+            <!-- <a routerLink="/about" class="nav-item r-item">About</a>
+            <a routerLink="/services" class="nav-item r-item">Services</a>
+            <a routerLink="/contact" class="nav-item r-item">Contact</a> -->
+            <a routerLink="/offer" class="nav-item r-item">What we offer</a>
       </div>
   
-      <span class="nav-toggle">
-          <span></span>
-          <span></span>
-          <span></span>
-      </span>
-      
-      <!-- <span class="nav-toggle" (click)="toggleNav = !toggleNav;" [ngClass]="{'is-active': toggleNav }">
-        <span></span>
-        <span></span>
-        <span></span>
-    </span> -->
-  
-      <div class="nav-right nav-menu" [ngClass]="{'is-active': toggleNav }">
-  
-        <a routerLink="/" class="nav-item r-item">Home</a>
-        <a class="nav-item r-item">About</a>
-        <a class="nav-item r-item">Features</a>
-        <a routerLink="/faq" class="nav-item r-item">FAQ</a>
-  
-        <div class="nav-item">
-          <p class="control">
-            <a class="button is-primary is-outlined">
-              <span class="icon">
-                <i class="fa fa-download"></i>
-              </span>
-              <span>Join Now</span>
-            </a>
-          </p>
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="field is-grouped">
+            <p class="control">
+              <a class="button is-primary is-outlined">
+                <span class="icon">
+                  <i class="fa fa-download"></i>
+                </span>
+                <span>Enquire Now</span>
+              </a>
+            </p>
+          </div>
         </div>
       </div>
-  
     </div>
-  </div>
-  
+  </nav>
   <router-outlet></router-outlet>
   
   <footer class="footer is-primary">
     <div class="container">
       <div class="columns">
         <div class="column">
-          <p>And this right here is a spiffy footer, where you can put stuff.</p>
+          <p>Gshep services(CIS).</p>
         </div>
         <div class="column has-text-right">
           <a class="icon" href="#"><i class="fa fa-facebook"></i></a>

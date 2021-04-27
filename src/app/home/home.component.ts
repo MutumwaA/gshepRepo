@@ -8,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   constructor() { }
-
+  heading: any;
+  subheading: any;
   ngOnInit() {
+    this.heading = "Soaring to new heights";
+    this.subheading = "GRANT SAFETY HEALTH AND ENVIRONMENTAL PRACTITIONERS.";
   }
 
 }

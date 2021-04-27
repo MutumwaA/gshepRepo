@@ -1,0 +1,80 @@
+<section class="section">
+  <div class="container">
+    <div class="columns pd is-desktop">
+      <div class="column is-one-third-desktop">
+        <p class="title"><strong>{{healthServicesMaintitle}}</strong></p>
+      </div>
+      <div class="column">
+        <p>{{healthServicesMainbody}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+  <div class="columns is-multiline pd">
+    <div class="column is-4" *ngFor="let healthServices of healthServices">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-content">
+              <p class="title">{{healthServices.title}}</p>
+            </div>
+          </div>
+      
+          <div class="content">
+            <p class="subtitle">{{healthServices.body}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="columns pd is-desktop">
+      <div class="column is-one-third-desktop">
+        <p class="title"><strong>{{healthServicesMaintitle}}</strong></p>
+      </div>
+      <div class="column">
+        <p>{{environmentalServicesMainbody}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div>
+  <section class="section">
+    <div class="container">
+    <div class="columns is-multiline pd">
+      <div class="column is-4" *ngFor="let environmentalServices of environmentalServices">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title">{{environmentalServices.title}}</p>
+              </div>
+            </div>
+        
+            <div class="content">
+              <p class="subtitle">{{environmentalServices.body}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+</div>
+

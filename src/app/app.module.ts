@@ -6,17 +6,17 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
-import { AssessmentCycleComponent } from './assessment-cycle/assessment-cycle.component';
-import { AssessmentAgentComponent } from './assessment-agent/assessment-agent.component';
+import { ContactComponent } from './contact/contact.component';
+import { OfferComponent } from './offer/offer.component';
 
 @NgModule({
-  declarations: [						
+  declarations: [								
     AppComponent,
       HomeComponent,
       AboutComponent,
       ServicesComponent,
-      AssessmentCycleComponent,
-      AssessmentAgentComponent
+      ContactComponent,
+      OfferComponent
    ],
   imports: [
     BrowserModule,
