@@ -17,11 +17,6 @@ export class OfferComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-      axios.get('http://jsonplaceholder.typicode.com/posts')
-          .then(res => {
-               this.faqs = res.data.slice(0,10);
-               console.log(this.faqs);
-      })   
   this.healthServicesMaintitle = 'Health and safety solutions for your business';
   this.healthServicesMainbody = 'The effective management of work health and safety should primarily lead to a reduction in illness and injury followed by the sustainment of such reductions. Such an outcome often results in cost saving, higher profits and a motivated workforce that yields more product of a higher quality:';
   this.healthServices = [
